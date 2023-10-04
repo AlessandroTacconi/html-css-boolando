@@ -24,6 +24,7 @@ main {
 
 .box img {
   max-width: 440px;
+  display: flex;
 }
 
 .box {
@@ -34,9 +35,6 @@ main {
 .info {
   text-align: start;
   margin: 5px 0 55px;
-}
-
-.brand {
 }
 
 .gender {
@@ -91,4 +89,23 @@ main {
   font-size: 13px;
   padding: 10px;
   right: 0;
+}
+
+.cuore:hover {
+  color: red;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgb(248, 243, 236);
+}
+
+.yes:hover {
+  opacity: 0;
+}
+
+.image {
+  max-height: 640px;
+}
+
+.yes {
+  position: absolute;
 }
