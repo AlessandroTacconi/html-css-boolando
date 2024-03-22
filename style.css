@@ -32,11 +32,13 @@ ul {
   list-style: none;
   font-size: 14px;
   font-weight: bold;
+  color: white;
 }
 
 header li {
   display: inline-block;
   margin: 0 5px;
+  color: whitesmoke;
 }
 
 header a:link {
@@ -70,12 +72,12 @@ main {
 }
 
 .box img {
-  max-width: 440px;
+  max-width: 400px;
   display: flex;
 }
 
 .box {
-  max-width: 440px;
+  max-width: 400px;
   position: relative;
 }
 
@@ -115,7 +117,7 @@ main {
   font-weight: bold;
   font-size: 13px;
   padding: 5px 10px;
-  right: 290px;
+  right: 250px;
 }
 
 .sostenibilità1 {
@@ -180,4 +182,14 @@ footer li {
   display: inline-block;
   font-weight: 100;
   margin-top: 5px;
+  list-style: none;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+:any-link {
+  color: white;
 }
